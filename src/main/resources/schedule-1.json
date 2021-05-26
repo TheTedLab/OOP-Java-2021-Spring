@@ -1,0 +1,826 @@
+[
+  {
+    "day": 10,
+    "time": 493,
+    "name": "Ojecipumer",
+    "type": "CONTAINER",
+    "weight": 2492,
+    "waitTime": 24.92
+  },
+  {
+    "day": 14,
+    "time": 909,
+    "name": "Iqayovonub",
+    "type": "FLUID",
+    "weight": 2130,
+    "waitTime": 21.3
+  },
+  {
+    "day": 13,
+    "time": 988,
+    "name": "Ixihexivic",
+    "type": "FRIABLE",
+    "weight": 693,
+    "waitTime": 6.93
+  },
+  {
+    "day": 7,
+    "time": 1006,
+    "name": "Amiyifacux",
+    "type": "CONTAINER",
+    "weight": 93,
+    "waitTime": 0.93
+  },
+  {
+    "day": 10,
+    "time": 1129,
+    "name": "Owujiwihat",
+    "type": "CONTAINER",
+    "weight": 511,
+    "waitTime": 5.11
+  },
+  {
+    "day": 28,
+    "time": 126,
+    "name": "Ereverigis",
+    "type": "FRIABLE",
+    "weight": 5725,
+    "waitTime": 57.25
+  },
+  {
+    "day": 11,
+    "time": 551,
+    "name": "Otepiyevot",
+    "type": "FRIABLE",
+    "weight": 1896,
+    "waitTime": 18.96
+  },
+  {
+    "day": 24,
+    "time": 422,
+    "name": "Iciwudasuy",
+    "type": "FRIABLE",
+    "weight": 3904,
+    "waitTime": 39.04
+  },
+  {
+    "day": 11,
+    "time": 623,
+    "name": "Oqagokucew",
+    "type": "FRIABLE",
+    "weight": 4373,
+    "waitTime": 43.73
+  },
+  {
+    "day": 15,
+    "time": 1003,
+    "name": "Irusuvores",
+    "type": "CONTAINER",
+    "weight": 8293,
+    "waitTime": 82.93
+  },
+  {
+    "day": 25,
+    "time": 337,
+    "name": "Evolesaxuj",
+    "type": "FRIABLE",
+    "weight": 9604,
+    "waitTime": 96.04
+  },
+  {
+    "day": 8,
+    "time": 1154,
+    "name": "Eduniveyut",
+    "type": "FLUID",
+    "weight": 1373,
+    "waitTime": 13.73
+  },
+  {
+    "day": 20,
+    "time": 85,
+    "name": "Osihirayop",
+    "type": "FRIABLE",
+    "weight": 1043,
+    "waitTime": 10.43
+  },
+  {
+    "day": 6,
+    "time": 328,
+    "name": "Ehagelitek",
+    "type": "FLUID",
+    "weight": 1255,
+    "waitTime": 12.55
+  },
+  {
+    "day": 22,
+    "time": 1313,
+    "name": "Ajanenowip",
+    "type": "FRIABLE",
+    "weight": 4697,
+    "waitTime": 46.97
+  },
+  {
+    "day": 19,
+    "time": 322,
+    "name": "Ekijaxonef",
+    "type": "FLUID",
+    "weight": 3508,
+    "waitTime": 35.08
+  },
+  {
+    "day": 13,
+    "time": 649,
+    "name": "Alujaqadum",
+    "type": "CONTAINER",
+    "weight": 5781,
+    "waitTime": 57.81
+  },
+  {
+    "day": 2,
+    "time": 751,
+    "name": "Uwuvivegap",
+    "type": "CONTAINER",
+    "weight": 2715,
+    "waitTime": 27.15
+  },
+  {
+    "day": 27,
+    "time": 1179,
+    "name": "Uwuyuhatav",
+    "type": "CONTAINER",
+    "weight": 2557,
+    "waitTime": 25.57
+  },
+  {
+    "day": 6,
+    "time": 1140,
+    "name": "Ucunusokux",
+    "type": "CONTAINER",
+    "weight": 1869,
+    "waitTime": 18.69
+  },
+  {
+    "day": 25,
+    "time": 1149,
+    "name": "Avekilotan",
+    "type": "FLUID",
+    "weight": 5522,
+    "waitTime": 55.22
+  },
+  {
+    "day": 25,
+    "time": 748,
+    "name": "Awegomepor",
+    "type": "FLUID",
+    "weight": 357,
+    "waitTime": 3.57
+  },
+  {
+    "day": 27,
+    "time": 521,
+    "name": "Eyodowafeh",
+    "type": "FRIABLE",
+    "weight": 8679,
+    "waitTime": 86.79
+  },
+  {
+    "day": 7,
+    "time": 837,
+    "name": "Ofenaduxet",
+    "type": "FRIABLE",
+    "weight": 3514,
+    "waitTime": 35.14
+  },
+  {
+    "day": 8,
+    "time": 431,
+    "name": "Eqoqanaqob",
+    "type": "CONTAINER",
+    "weight": 1883,
+    "waitTime": 18.83
+  },
+  {
+    "day": 9,
+    "time": 987,
+    "name": "Arulumoyit",
+    "type": "FRIABLE",
+    "weight": 6649,
+    "waitTime": 66.49
+  },
+  {
+    "day": 4,
+    "time": 979,
+    "name": "Utiwajevuf",
+    "type": "FRIABLE",
+    "weight": 4724,
+    "waitTime": 47.24
+  },
+  {
+    "day": 6,
+    "time": 517,
+    "name": "Ufoxalunek",
+    "type": "FLUID",
+    "weight": 9546,
+    "waitTime": 95.46
+  },
+  {
+    "day": 3,
+    "time": 575,
+    "name": "Afowosewox",
+    "type": "FLUID",
+    "weight": 6387,
+    "waitTime": 63.87
+  },
+  {
+    "day": 2,
+    "time": 1128,
+    "name": "Ujeqesolad",
+    "type": "CONTAINER",
+    "weight": 5103,
+    "waitTime": 51.03
+  },
+  {
+    "day": 18,
+    "time": 1052,
+    "name": "Imasadoreh",
+    "type": "FLUID",
+    "weight": 4870,
+    "waitTime": 48.7
+  },
+  {
+    "day": 22,
+    "time": 294,
+    "name": "Erebekequm",
+    "type": "FRIABLE",
+    "weight": 3292,
+    "waitTime": 32.92
+  },
+  {
+    "day": 19,
+    "time": 197,
+    "name": "Aqesovafoj",
+    "type": "FLUID",
+    "weight": 9320,
+    "waitTime": 93.2
+  },
+  {
+    "day": 2,
+    "time": 680,
+    "name": "Ubanesocuv",
+    "type": "CONTAINER",
+    "weight": 4512,
+    "waitTime": 45.12
+  },
+  {
+    "day": 3,
+    "time": 222,
+    "name": "Itefitomud",
+    "type": "CONTAINER",
+    "weight": 7084,
+    "waitTime": 70.84
+  },
+  {
+    "day": 7,
+    "time": 846,
+    "name": "Uyecomufay",
+    "type": "FRIABLE",
+    "weight": 1950,
+    "waitTime": 19.5
+  },
+  {
+    "day": 11,
+    "time": 835,
+    "name": "Odacefineq",
+    "type": "CONTAINER",
+    "weight": 5665,
+    "waitTime": 56.65
+  },
+  {
+    "day": 7,
+    "time": 601,
+    "name": "Ipejavequn",
+    "type": "FRIABLE",
+    "weight": 7948,
+    "waitTime": 79.48
+  },
+  {
+    "day": 23,
+    "time": 653,
+    "name": "Ehibiyumey",
+    "type": "FLUID",
+    "weight": 5306,
+    "waitTime": 53.06
+  },
+  {
+    "day": 27,
+    "time": 705,
+    "name": "Isomasaboq",
+    "type": "FRIABLE",
+    "weight": 5569,
+    "waitTime": 55.69
+  },
+  {
+    "day": 6,
+    "time": 200,
+    "name": "Edejomavit",
+    "type": "FRIABLE",
+    "weight": 673,
+    "waitTime": 6.73
+  },
+  {
+    "day": 26,
+    "time": 370,
+    "name": "Iroqorajit",
+    "type": "FRIABLE",
+    "weight": 1562,
+    "waitTime": 15.62
+  },
+  {
+    "day": 27,
+    "time": 525,
+    "name": "Igaqeqidud",
+    "type": "FRIABLE",
+    "weight": 4745,
+    "waitTime": 47.45
+  },
+  {
+    "day": 8,
+    "time": 1102,
+    "name": "Anohipojaw",
+    "type": "FRIABLE",
+    "weight": 3706,
+    "waitTime": 37.06
+  },
+  {
+    "day": 1,
+    "time": 852,
+    "name": "Obipuwarib",
+    "type": "FRIABLE",
+    "weight": 7000,
+    "waitTime": 70.0
+  },
+  {
+    "day": 17,
+    "time": 606,
+    "name": "Acupinovow",
+    "type": "FLUID",
+    "weight": 4394,
+    "waitTime": 43.94
+  },
+  {
+    "day": 3,
+    "time": 882,
+    "name": "Ifokilahix",
+    "type": "CONTAINER",
+    "weight": 3131,
+    "waitTime": 31.31
+  },
+  {
+    "day": 4,
+    "time": 1211,
+    "name": "Ecixuhugix",
+    "type": "CONTAINER",
+    "weight": 2919,
+    "waitTime": 29.19
+  },
+  {
+    "day": 18,
+    "time": 150,
+    "name": "Ifopafereh",
+    "type": "CONTAINER",
+    "weight": 1849,
+    "waitTime": 18.49
+  },
+  {
+    "day": 1,
+    "time": 1183,
+    "name": "Iqilidupil",
+    "type": "FRIABLE",
+    "weight": 3722,
+    "waitTime": 37.22
+  },
+  {
+    "day": 15,
+    "time": 133,
+    "name": "Uxapajugag",
+    "type": "CONTAINER",
+    "weight": 1765,
+    "waitTime": 17.65
+  },
+  {
+    "day": 29,
+    "time": 221,
+    "name": "Efayigojaj",
+    "type": "CONTAINER",
+    "weight": 732,
+    "waitTime": 7.32
+  },
+  {
+    "day": 8,
+    "time": 24,
+    "name": "Ebasoqucok",
+    "type": "FRIABLE",
+    "weight": 598,
+    "waitTime": 5.98
+  },
+  {
+    "day": 16,
+    "time": 2,
+    "name": "Iceceherog",
+    "type": "FLUID",
+    "weight": 3875,
+    "waitTime": 38.75
+  },
+  {
+    "day": 6,
+    "time": 669,
+    "name": "Abofelawuh",
+    "type": "FLUID",
+    "weight": 976,
+    "waitTime": 9.76
+  },
+  {
+    "day": 21,
+    "time": 726,
+    "name": "Owidipolik",
+    "type": "FRIABLE",
+    "weight": 9449,
+    "waitTime": 94.49
+  },
+  {
+    "day": 19,
+    "time": 1145,
+    "name": "Agudefowis",
+    "type": "FRIABLE",
+    "weight": 4249,
+    "waitTime": 42.49
+  },
+  {
+    "day": 15,
+    "time": 944,
+    "name": "Uyosocixal",
+    "type": "FLUID",
+    "weight": 1648,
+    "waitTime": 16.48
+  },
+  {
+    "day": 28,
+    "time": 443,
+    "name": "Iwanayajob",
+    "type": "FLUID",
+    "weight": 8889,
+    "waitTime": 88.89
+  },
+  {
+    "day": 29,
+    "time": 61,
+    "name": "Etehasuviw",
+    "type": "FLUID",
+    "weight": 1465,
+    "waitTime": 14.65
+  },
+  {
+    "day": 25,
+    "time": 1335,
+    "name": "Ocudefocof",
+    "type": "FRIABLE",
+    "weight": 797,
+    "waitTime": 7.97
+  },
+  {
+    "day": 13,
+    "time": 1392,
+    "name": "Esotoqujit",
+    "type": "FLUID",
+    "weight": 9194,
+    "waitTime": 91.94
+  },
+  {
+    "day": 15,
+    "time": 468,
+    "name": "Ebidayulik",
+    "type": "FLUID",
+    "weight": 1429,
+    "waitTime": 14.29
+  },
+  {
+    "day": 29,
+    "time": 1380,
+    "name": "Isaqilodal",
+    "type": "FLUID",
+    "weight": 4521,
+    "waitTime": 45.21
+  },
+  {
+    "day": 29,
+    "time": 1275,
+    "name": "Uyayebukaj",
+    "type": "FRIABLE",
+    "weight": 5450,
+    "waitTime": 54.5
+  },
+  {
+    "day": 27,
+    "time": 949,
+    "name": "Ibuxupewew",
+    "type": "FLUID",
+    "weight": 7762,
+    "waitTime": 77.62
+  },
+  {
+    "day": 14,
+    "time": 553,
+    "name": "Otuqoyuyup",
+    "type": "CONTAINER",
+    "weight": 6049,
+    "waitTime": 60.49
+  },
+  {
+    "day": 14,
+    "time": 97,
+    "name": "Obuqunajes",
+    "type": "FRIABLE",
+    "weight": 9588,
+    "waitTime": 95.88
+  },
+  {
+    "day": 3,
+    "time": 579,
+    "name": "Iguqakafuw",
+    "type": "FRIABLE",
+    "weight": 4878,
+    "waitTime": 48.78
+  },
+  {
+    "day": 25,
+    "time": 213,
+    "name": "Ofuwaqofuq",
+    "type": "CONTAINER",
+    "weight": 8363,
+    "waitTime": 83.63
+  },
+  {
+    "day": 21,
+    "time": 1229,
+    "name": "Ihuhicequh",
+    "type": "CONTAINER",
+    "weight": 9766,
+    "waitTime": 97.66
+  },
+  {
+    "day": 24,
+    "time": 415,
+    "name": "Ovuvilehik",
+    "type": "FLUID",
+    "weight": 9831,
+    "waitTime": 98.31
+  },
+  {
+    "day": 5,
+    "time": 860,
+    "name": "Afobolitop",
+    "type": "FLUID",
+    "weight": 7494,
+    "waitTime": 74.94
+  },
+  {
+    "day": 4,
+    "time": 871,
+    "name": "Iyawahepik",
+    "type": "FRIABLE",
+    "weight": 3811,
+    "waitTime": 38.11
+  },
+  {
+    "day": 21,
+    "time": 67,
+    "name": "Ilojorasek",
+    "type": "FLUID",
+    "weight": 7051,
+    "waitTime": 70.51
+  },
+  {
+    "day": 14,
+    "time": 388,
+    "name": "Okujavexam",
+    "type": "FLUID",
+    "weight": 2181,
+    "waitTime": 21.81
+  },
+  {
+    "day": 1,
+    "time": 462,
+    "name": "Esalolopaq",
+    "type": "FLUID",
+    "weight": 6221,
+    "waitTime": 62.21
+  },
+  {
+    "day": 11,
+    "time": 485,
+    "name": "Iyoforasin",
+    "type": "FLUID",
+    "weight": 9983,
+    "waitTime": 99.83
+  },
+  {
+    "day": 15,
+    "time": 1273,
+    "name": "Exofadubax",
+    "type": "CONTAINER",
+    "weight": 1763,
+    "waitTime": 17.63
+  },
+  {
+    "day": 23,
+    "time": 279,
+    "name": "Akavekexiy",
+    "type": "FRIABLE",
+    "weight": 3096,
+    "waitTime": 30.96
+  },
+  {
+    "day": 13,
+    "time": 705,
+    "name": "Atohakexif",
+    "type": "FLUID",
+    "weight": 5564,
+    "waitTime": 55.64
+  },
+  {
+    "day": 16,
+    "time": 358,
+    "name": "Aqaliqekeg",
+    "type": "CONTAINER",
+    "weight": 7759,
+    "waitTime": 77.59
+  },
+  {
+    "day": 13,
+    "time": 298,
+    "name": "Okulepoquk",
+    "type": "CONTAINER",
+    "weight": 3334,
+    "waitTime": 33.34
+  },
+  {
+    "day": 15,
+    "time": 500,
+    "name": "Owigoliguk",
+    "type": "FLUID",
+    "weight": 4994,
+    "waitTime": 49.94
+  },
+  {
+    "day": 16,
+    "time": 926,
+    "name": "Ojenabuciq",
+    "type": "CONTAINER",
+    "weight": 1680,
+    "waitTime": 16.8
+  },
+  {
+    "day": 5,
+    "time": 391,
+    "name": "Owudoyonon",
+    "type": "FLUID",
+    "weight": 4821,
+    "waitTime": 48.21
+  },
+  {
+    "day": 11,
+    "time": 1012,
+    "name": "Ibihedewif",
+    "type": "CONTAINER",
+    "weight": 9820,
+    "waitTime": 98.2
+  },
+  {
+    "day": 29,
+    "time": 777,
+    "name": "Abijohipih",
+    "type": "CONTAINER",
+    "weight": 5407,
+    "waitTime": 54.07
+  },
+  {
+    "day": 27,
+    "time": 187,
+    "name": "Uxinuciget",
+    "type": "FRIABLE",
+    "weight": 7227,
+    "waitTime": 72.27
+  },
+  {
+    "day": 9,
+    "time": 486,
+    "name": "Ecaqukodoq",
+    "type": "CONTAINER",
+    "weight": 6013,
+    "waitTime": 60.13
+  },
+  {
+    "day": 23,
+    "time": 499,
+    "name": "Uruyidexid",
+    "type": "FRIABLE",
+    "weight": 4293,
+    "waitTime": 42.93
+  },
+  {
+    "day": 2,
+    "time": 973,
+    "name": "Ugidayabuv",
+    "type": "CONTAINER",
+    "weight": 8537,
+    "waitTime": 85.37
+  },
+  {
+    "day": 14,
+    "time": 611,
+    "name": "Unodukugex",
+    "type": "CONTAINER",
+    "weight": 1089,
+    "waitTime": 10.89
+  },
+  {
+    "day": 10,
+    "time": 480,
+    "name": "Akeqicumad",
+    "type": "CONTAINER",
+    "weight": 1928,
+    "waitTime": 19.28
+  },
+  {
+    "day": 14,
+    "time": 1203,
+    "name": "Uwiyexoqod",
+    "type": "FRIABLE",
+    "weight": 8260,
+    "waitTime": 82.6
+  },
+  {
+    "day": 15,
+    "time": 756,
+    "name": "Ihelomihit",
+    "type": "CONTAINER",
+    "weight": 1143,
+    "waitTime": 11.43
+  },
+  {
+    "day": 14,
+    "time": 550,
+    "name": "Ogobegogol",
+    "type": "FRIABLE",
+    "weight": 8260,
+    "waitTime": 82.6
+  },
+  {
+    "day": 30,
+    "time": 911,
+    "name": "Ucaweniraj",
+    "type": "FLUID",
+    "weight": 2955,
+    "waitTime": 29.55
+  },
+  {
+    "day": 26,
+    "time": 336,
+    "name": "Iruxicuwow",
+    "type": "FRIABLE",
+    "weight": 9978,
+    "waitTime": 99.78
+  },
+  {
+    "day": 20,
+    "time": 640,
+    "name": "Uduwayafuh",
+    "type": "FRIABLE",
+    "weight": 5122,
+    "waitTime": 51.22
+  },
+  {
+    "day": 1,
+    "time": 5,
+    "name": "Titanic",
+    "type": "CONTAINER",
+    "weight": 1000,
+    "waitTime": 10.0
+  },
+  {
+    "day": 1,
+    "time": 10,
+    "name": "Britannic",
+    "type": "FLUID",
+    "weight": 2000,
+    "waitTime": 20.0
+  },
+  {
+    "day": 1,
+    "time": 20,
+    "name": "EverGiven",
+    "type": "FRIABLE",
+    "weight": 9999,
+    "waitTime": 99.99
+  }
+]
