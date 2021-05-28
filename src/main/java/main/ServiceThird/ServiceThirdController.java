@@ -55,6 +55,7 @@ public class ServiceThirdController {
             reportName = "report-" + reportId;
         }
 
+        //Получение расписания GET эндпоинтом 2 сервиса и отправка на симуляцию в порт
         ResponseEntity<String> responseEntity = restTemplate.getForEntity(serviceSecondURL
                 + scheduleFileName, String.class);
         Port.simulate(responseEntity.getBody(), reportName);
