@@ -17,6 +17,7 @@ public class Port {
 
     public static void simulate(String scheduleFileName, String reportFileName) {
 
+        //Объект сбора статистики для отчета
         ReportStatistics reportStatistics;
 
         //Конфигурация
@@ -90,6 +91,7 @@ public class Port {
                 }
             }
 
+            //Ресет штрафов
             containerPenalty = 0;
             fluidPenalty = 0;
             friablePenalty = 0;
@@ -144,8 +146,6 @@ public class Port {
 
             List<Crane> friableCranes = createCranes(friableCraneProductivity, numOfFriableCranes,
                     barrier, threads, "FriableThread ");
-
-            //printShips(ships , "Before cycle:");
 
             int containerQueueLength;
             int fluidQueueLength;
@@ -259,15 +259,18 @@ public class Port {
             //Вывод списка обработанных кораблей
             printShips(ships, "Ships List: ");
 
+            //Создание объекта статистики текущего цикла
             reportStatistics = new ReportStatistics(ships, shipsDelays,
                     containerCraneProductivity, fluidCraneProductivity, friableCraneProductivity,
                     ships.size(), numOfContainerShips, numOfFluidShips, numOfFriableShips,
                     numOfContainerCranes, numOfFluidCranes, numOfFriableCranes);
 
+            //Сбор статистики
             reportStatistics.collectStatistics(containerPenalty, fluidPenalty, friablePenalty,
                     allPenalty, unloadedShips, averageWaitTime, averageQueueLength,
                     getAverageDelay(ships),getMaxDelay(ships));
 
+            //Вывод статистики в консоль
             ArrivedShip reportShip;
             for (int i = 0; i < ships.size(); i++) {
                 reportShip = ships.get(i);
@@ -310,18 +313,20 @@ public class Port {
             System.out.printf("Average Unload Delay: %.2f\n", getAverageDelay(ships));
             System.out.println("    Max Unload Delay: " + getMaxDelay(ships));
         } while (allPenalty > CRANE_PRICE);
+        //Если штрафы минимизированы, конец симуляции
 
+        //Итоги по кранам
         System.out.println("TOTAL CRANES: ");
         System.out.println("CONTAINER CRANES: " + numOfContainerCranes);
         System.out.println("    FLUID CRANES: " + numOfFluidCranes);
         System.out.println("  FRIABLE CRANES: " + numOfFriableCranes);
 
+        //Отправка отчета на POST эндпойнт 2 сервиса
         RestTemplate restTemplate = new RestTemplate();
         Gson gsonReport = new GsonBuilder().setPrettyPrinting().create();
         restTemplate.postForEntity("http://localhost:8080/serviceSecond/saveReport/" + reportFileName,
                 gsonReport.toJson(reportStatistics), String.class);
         System.out.println("Finished!");
-
     }
 
     private static int getMaxDelay(List<ArrivedShip> ships) {
@@ -495,21 +500,29 @@ public class Port {
 
     private static void setCraneToShip(ArrayDeque<ArrivedShip> shipsList, ArrayDeque<ArrivedShip> shipsQueue,
                                        List<Crane> cranesList, int day, int min) {
+        //Цикл по кранам
         for (Crane currentCrane : cranesList) {
+            //Если кран свободен
             if (currentCrane.ship == null) {
+                //Если рабочая очередь пустая
                 if (shipsQueue.isEmpty()) {
+                    //Если корабли не закончились
                     if (!shipsList.isEmpty()) {
+                        //Берем корабль из списка
                         ArrivedShip currentShip = shipsList.getFirst();
+                        //Если он пришел, ставим кран на корабль, заносим в рабочую очередь
                         if (currentShip.isCame()) {
                             shipsList.pollFirst();
                             shipsQueue.addLast(currentShip);
                             currentCrane.setShip(currentShip);
+                            //Отметка о начале разгрузки
                             currentShip.setUnloadStart(day, min);
                         } else {
                             break;
                         }
                     }
                 } else {
+                    //Если рабочая очередь не пустая, ставим второй кран на корабль
                     ArrivedShip currentShip = shipsQueue.getFirst();
                     shipsQueue.pollFirst();
                     currentCrane.setShip(currentShip);
